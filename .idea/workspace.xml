@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc6dfd24-e9b7-4359-9272-6a7b8b70716e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="21wzOGKXyUPyPQlhCQZ2CUxXwso" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/RentalAppApiRentals/src/main/java/com/appsdeveloperblog/rentalapp/api/rentals/controllers" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\emin.sahan\Documents\12.6.2021.rental\RentalAppApiRentals\src\main\java\com\appsdeveloperblog\rentalapp\api\rentals\controllers" />
+      <recent name="C:\Users\emin.sahan\Documents\12.6.2021.rental\RentalAppApiRentals\src\main\java\com\appsdeveloperblog\rentalapp\api\rentals\models\color" />
+      <recent name="C:\Users\emin.sahan\Documents\12.6.2021.rental\RentalAppApiRentals\src\main\java\com\appsdeveloperblog\rentalapp\api\rentals\models\car" />
+      <recent name="C:\Users\emin.sahan\Documents\12.6.2021.rental\RentalAppApiRentals\src\main\java\com\appsdeveloperblog\rentalapp\api\rentals\models\brand" />
+      <recent name="C:\Users\emin.sahan\Documents\12.6.2021.rental\RentalAppApiRentals\src\main\java\com\appsdeveloperblog\rentalapp\api\rentals\business\concretes" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.appsdeveloperblog.rentalapp.api.rentals.core.utilities.bussines" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RentalAppApiRentalsApplication">
+    <configuration name="ApiGetewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.appsdeveloperblog.rentalapp.api.geteway.ApiGetewayApplication" />
+      <module name="ApiGeteway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.appsdeveloperblog.rentalapp.api.geteway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGetewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ApiGeteway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.appsdeveloperblog.rentalapp.api.geteway.ApiGetewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalAppApiInvoicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="RentalAppApiInvoices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.appsdeveloperblog.rentalapp.api.invoices.RentalAppApiInvoicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalAppApiRentalsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="RentalAppApiRentals" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.appsdeveloperblog.rentalapp.api.rentals.RentalAppApiRentalsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalAppDiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="RentalAppDiscoveryService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.appsdeveloperblok.rentalapp.discovery.RentalAppDiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiGetewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc6dfd24-e9b7-4359-9272-6a7b8b70716e" name="Changes" comment="" />
+      <created>1638866903735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638866903735</updated>
+      <workItem from="1638866904917" duration="52000" />
+      <workItem from="1638959131745" duration="10562000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
