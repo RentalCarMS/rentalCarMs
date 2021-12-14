@@ -5,10 +5,15 @@ import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.business.dtos
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.core.utilities.mapping.ModelMapperService;
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.core.utilities.results.*;
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.dataAccess.UserDao;
-import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.entities.User;
+import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.entities.UserEntity;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
 
 @Service
 public class UserManager implements UserService {
@@ -24,13 +29,13 @@ public class UserManager implements UserService {
     @Override
     public DataResult<UserSearchListDto> getById(int id) {
 
-        User user = this.userDao.getById(id);
+        UserEntity user = this.userDao.getById(id);
         UserSearchListDto userSearchListDto = modelMapperService.forDto().map(user, UserSearchListDto.class);
         return new SuccessDataResult<UserSearchListDto>(userSearchListDto);
     }
 @Override
     public DataResult<UserSearchListDto> getByEmail(String email) {
-        User user = this.userDao.getByEmail(email);
+        UserEntity user = this.userDao.getByEmail(email);
         UserSearchListDto userSearchListDto = modelMapperService.forDto().map(user, UserSearchListDto.class);
         return new SuccessDataResult<UserSearchListDto>(userSearchListDto);
     }
@@ -41,11 +46,31 @@ public class UserManager implements UserService {
         }
         return new SuccessResult();
     }
+
     @Override
     public Result checkIfUserExists(int userId) {
         if (!this.userDao.existsById(userId)) {
             return new ErrorResult("USER NOT FOUND");
         }
         return new SuccessResult();
+    }
+
+    @Override
+    public DataResult<UserSearchListDto> getUserDetailsByEmail(String email) {
+        UserEntity userEntity = this.userDao.findByEmail(email);
+        if (userEntity==null){
+            throw  new UsernameNotFoundException(email);
+        }
+        return new SuccessDataResult<UserSearchListDto>(new ModelMapper().map(userEntity,UserSearchListDto.class));
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        UserEntity userEntity = this.userDao.findByEmail(username);
+
+        if (userEntity==null) {
+            throw new UsernameNotFoundException(username);
+        }
+        return new User(userEntity.getEmail(), userEntity.getPassword() , true, true,true ,true, new ArrayList<>());
     }
 }

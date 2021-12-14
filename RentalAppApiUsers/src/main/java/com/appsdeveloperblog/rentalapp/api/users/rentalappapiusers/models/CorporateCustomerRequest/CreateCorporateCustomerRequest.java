@@ -13,6 +13,7 @@ import javax.validation.constraints.NotNull;
 public class CreateCorporateCustomerRequest {
     @NotNull
     private String companyName;
+
     @NotNull
     private String taxNumber;
 
