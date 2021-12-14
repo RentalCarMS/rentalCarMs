@@ -4,6 +4,8 @@ import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.business.abst
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.business.dtos.IndividualCustomerSearchListDto;
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.core.utilities.results.DataResult;
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.core.utilities.results.Result;
+import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.core.utilities.results.SuccessDataResult;
+import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.core.utilities.results.SuccessResult;
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.models.IndıvıdualCustomerRequest.DeleteIndividualCustomerRequest;
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.models.IndıvıdualCustomerRequest.UpdateIndividualCustomerRequest;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +24,12 @@ public class IndividualCustomersController {
         super();
         this.individualCustomerService = individualCustomerService;
     }
+
+    @GetMapping("check")
+    public Result check(){
+        return new SuccessResult("On");
+    }
+
 
     @GetMapping("getAll")
     public DataResult<List<IndividualCustomerSearchListDto>> getAll() {

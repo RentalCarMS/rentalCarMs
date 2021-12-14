@@ -28,3 +28,9 @@ eureka:
 
 geteway:
   ip: "localhost"
+token:
+  expiration: 864000000
+  secret: mysupersecretkeymysupersecretkeymysupersecretkey
+login:
+  url:
+    path: "/users/login"

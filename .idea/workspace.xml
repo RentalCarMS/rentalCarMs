@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc6dfd24-e9b7-4359-9272-6a7b8b70716e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/security/AuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_2_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_3_1_0.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGeteway/src/main/java/com/appsdeveloperblog/rentalapp/api/geteway/AuthorizationHeaderFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/business/abstracts/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/business/abstracts/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/business/concretes/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/business/concretes/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/dataAccess/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/dataAccess/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/entities/CorporateCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/entities/CorporateCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/entities/IndividualCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/entities/IndividualCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/entities/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGeteway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGeteway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGeteway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGeteway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalAppApiUsers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiUsers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/controllers/IndividualCustomersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/controllers/IndividualCustomersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/security/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/security/AuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalAppApiUsers/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiUsers/src/main/resources/application.yaml" afterDir="false" />
     </list>
-    <list id="a01744ff-c104-4b5f-89ce-23351e946dbb" name="Changes by muhammet.karakas" comment="">
-      <change beforePath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/models/CorporateCustomerRequest/CreateCorporateCustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiUsers/src/main/java/com/appsdeveloperblog/rentalapp/api/users/rentalappapiusers/models/CorporateCustomerRequest/CreateCorporateCustomerRequest.java" afterDir="false" />
-    </list>
+    <list id="a01744ff-c104-4b5f-89ce-23351e946dbb" name="Changes by muhammet.karakas" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,6 +199,7 @@
       <workItem from="1639046195620" duration="10789000" />
       <workItem from="1639376331573" duration="2650000" />
       <workItem from="1639379026851" duration="727000" />
+      <workItem from="1639472916407" duration="1149000" />
     </task>
     <servers />
   </component>
