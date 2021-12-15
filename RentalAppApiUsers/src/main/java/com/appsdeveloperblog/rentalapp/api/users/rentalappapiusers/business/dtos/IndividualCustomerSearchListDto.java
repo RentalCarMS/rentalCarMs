@@ -10,7 +10,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 public class IndividualCustomerSearchListDto {
-
+    private int userId;
     private String firstName;
     private String lastName;
     private String email;

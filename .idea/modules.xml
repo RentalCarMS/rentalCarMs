@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/12.6.2021.rental.iml" filepath="$PROJECT_DIR$/.idea/12.6.2021.rental.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ApiGateway/ApiGeteway.iml" filepath="$PROJECT_DIR$/ApiGateway/ApiGeteway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApiGateway/ApiGateway.iml" filepath="$PROJECT_DIR$/ApiGateway/ApiGateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/RentalAppApiInvoices/RentalAppApiInvoices.iml" filepath="$PROJECT_DIR$/RentalAppApiInvoices/RentalAppApiInvoices.iml" />
       <module fileurl="file://$PROJECT_DIR$/RentalAppApiRentals/RentalAppApiRentals.iml" filepath="$PROJECT_DIR$/RentalAppApiRentals/RentalAppApiRentals.iml" />
       <module fileurl="file://$PROJECT_DIR$/RentalAppApiUsers/RentalAppApiUsers.iml" filepath="$PROJECT_DIR$/RentalAppApiUsers/RentalAppApiUsers.iml" />

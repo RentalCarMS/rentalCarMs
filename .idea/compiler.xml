@@ -8,13 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="RentalAppDiscoveryService" />
-        <module name="ApiGeteway" />
         <module name="RentalAppApiInvoices" />
         <module name="RentalAppApiUsers" />
+        <module name="ApiGateway" />
         <module name="RentalAppApiRentals" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ApiGateway" target="11" />
       <module name="ApiGeteway" target="11" />
       <module name="RentalAppApiInvoices" target="11" />
       <module name="RentalAppApiRentals" target="11" />
@@ -24,6 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGateway" options="-parameters" />
       <module name="ApiGeteway" options="-parameters" />
       <module name="RentalAppApiInvoices" options="-parameters" />
       <module name="RentalAppApiRentals" options="-parameters" />

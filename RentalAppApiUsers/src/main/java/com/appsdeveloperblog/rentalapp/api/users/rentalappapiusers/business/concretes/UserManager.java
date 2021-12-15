@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -19,12 +20,15 @@ import java.util.ArrayList;
 public class UserManager implements UserService {
     private UserDao userDao;
     private ModelMapperService modelMapperService;
+    private BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Autowired
-    public UserManager(UserDao userDao, ModelMapperService modelMapperService) {
+    public UserManager(UserDao userDao, ModelMapperService modelMapperService, BCryptPasswordEncoder bCryptPasswordEncoder) {
         super();
         this.userDao = userDao;
         this.modelMapperService = modelMapperService;
+        this.bCryptPasswordEncoder=bCryptPasswordEncoder;
+
     }
     @Override
     public DataResult<UserSearchListDto> getById(int id) {

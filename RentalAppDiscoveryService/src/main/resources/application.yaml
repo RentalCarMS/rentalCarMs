@@ -4,7 +4,7 @@ server:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://localhost:8761
+      defaultZone: http://localhost:8761/
 spring:
   application:
-    name: Rentals-DS
+    name : Rentals-DS

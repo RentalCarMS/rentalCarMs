@@ -12,7 +12,6 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreateIndividualCustomerRequest {
-
     @JsonIgnore
     private int id;
     @NotNull

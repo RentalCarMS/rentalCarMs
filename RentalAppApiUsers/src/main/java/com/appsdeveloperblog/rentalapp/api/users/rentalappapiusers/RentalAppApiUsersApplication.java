@@ -20,21 +20,21 @@ public class RentalAppApiUsersApplication {
         SpringApplication.run(RentalAppApiUsersApplication.class, args);
     }
     @Bean
-    public BCryptPasswordEncoder bCryptPasswordEncoder(){
-    return new BCryptPasswordEncoder();
-    }
-    @Bean
-    public ModelMapper getModelMapper(){
-        ModelMapper modelMapper = new ModelMapper();
-        return modelMapper;
-    }
-
-    @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors
-                        .basePackage("com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers"))
+                .apis(RequestHandlerSelectors.basePackage("com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers"))
                 .build();
     }
+
+    @Bean
+    public ModelMapper getModelMapper() {
+        ModelMapper modelMapper=new ModelMapper();
+        return modelMapper;
+    }
+    @Bean
+    public BCryptPasswordEncoder bCryptPasswordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
+
 }
