@@ -20,8 +20,8 @@ spring:
 
         - id: users-individualCustomer-check
           uri: lb://users-ws
-          predicates:ws/api/individualc
-            - Path= /users-ustomer/check
+          predicates:
+          - Path= /users-ws/api/individualcustomer/check
           - Method= GET
           - Header= Authorization, Bearer(.*)
           filters:
