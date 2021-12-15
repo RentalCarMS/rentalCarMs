@@ -44,8 +44,10 @@ public class IndividualCustomerManager implements IndividualCustomerService {
 
     @Override
     public Result add(CreateIndividualCustomerRequest createIndividualCustomerRequest) {
-        IndividualCustomer result = modelMapperService.forRequest().map(createIndividualCustomerRequest, IndividualCustomer.class);
-        result.setPassword(this.bCryptPasswordEncoder.encode(createIndividualCustomerRequest.getPassword()));
+
+         IndividualCustomer result = modelMapperService.forRequest().map(createIndividualCustomerRequest, IndividualCustomer.class);
+         result.setPassword(this.bCryptPasswordEncoder.encode(createIndividualCustomerRequest.getPassword()));
+
         this.individualCustomerDao.save(result);
         return new SuccessResult("Individual Customer Added");
     }

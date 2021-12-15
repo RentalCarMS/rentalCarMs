@@ -1,5 +1,6 @@
 package com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.models.IndıvıdualCustomerRequest;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,6 +12,9 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreateIndividualCustomerRequest {
+
+    @JsonIgnore
+    private int id;
     @NotNull
     private String firstName;
     @NotNull

@@ -34,7 +34,7 @@ public class RentalAppApiUsersApplication {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(RequestHandlerSelectors
-                        .basePackage("com.appsdeveloperblog.rentalapp.api.rentals"))
+                        .basePackage("com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers"))
                 .build();
     }
 }

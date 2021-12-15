@@ -13,6 +13,7 @@ import javax.persistence.*;
 @Inheritance(strategy = InheritanceType.JOINED)
 @Table(name = "users")
 public class UserEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")

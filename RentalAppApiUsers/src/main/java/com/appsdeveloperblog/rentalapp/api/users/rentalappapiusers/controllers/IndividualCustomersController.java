@@ -6,16 +6,21 @@ import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.core.utilitie
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.core.utilities.results.Result;
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.core.utilities.results.SuccessDataResult;
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.core.utilities.results.SuccessResult;
+import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.models.CorporateCustomerRequest.CreateCorporateCustomerRequest;
+import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.models.IndıvıdualCustomerRequest.CreateIndividualCustomerRequest;
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.models.IndıvıdualCustomerRequest.DeleteIndividualCustomerRequest;
 import com.appsdeveloperblog.rentalapp.api.users.rentalappapiusers.models.IndıvıdualCustomerRequest.UpdateIndividualCustomerRequest;
+import org.modelmapper.ModelMapper;
+import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/individualCustomer")
+@RequestMapping("/api/individualcustomer")
 public class IndividualCustomersController {
     private IndividualCustomerService individualCustomerService;
 
@@ -30,6 +35,10 @@ public class IndividualCustomersController {
         return new SuccessResult("On");
     }
 
+    @PostMapping("add")
+    public Result createUser(@RequestBody @Valid CreateIndividualCustomerRequest createIndividualCustomerRequest ) {
+        return this.individualCustomerService.add(createIndividualCustomerRequest);
+    }
 
     @GetMapping("getAll")
     public DataResult<List<IndividualCustomerSearchListDto>> getAll() {
