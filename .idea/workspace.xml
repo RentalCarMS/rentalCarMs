@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc6dfd24-e9b7-4359-9272-6a7b8b70716e" name="Changes" comment="" />
+    <list default="true" id="dc6dfd24-e9b7-4359-9272-6a7b8b70716e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_annotations_4_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_grpc_proto_google_common_protos_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_axoniq_axonserver_connector_java_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_api_1_36_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_36_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_core_1_36_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_netty_1_36_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_1_36_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_lite_1_36_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_stub_1_36_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_2_0_46_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_classes_2_0_46_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_perfmark_perfmark_api_0_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_configuration_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_disruptor_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_eventsourcing_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_messaging_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_modelling_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_server_connector_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_spring_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_spring_boot_autoconfigure_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_spring_boot_starter_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalAppApiRentals/src/main/java/com/appsdeveloperblog/rentalapp/api/rentals/Event/CreateRentalAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalAppApiRentals/src/main/java/com/appsdeveloperblog/rentalapp/api/rentals/Event/CreateRentalCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalAppApiRentals/src/main/java/com/appsdeveloperblog/rentalapp/api/rentals/Event/CreateRentalRestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalAppApiRentals/src/main/java/com/appsdeveloperblog/rentalapp/api/rentals/Event/RentalCreatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalAppApiRentals/src/main/java/com/appsdeveloperblog/rentalapp/api/rentals/Event/RentalEvnetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="eb9dca5b-3c11-4ea3-b530-ace908ec4748" name="Changes by emin.sahan" comment="">
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalAppApiRentals/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RentalAppApiRentals/pom.xml" afterDir="false" />
+    </list>
     <list id="474395ba-bd11-42ae-b30a-8fb240784fa4" name="Changes by erdi.tuna" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +149,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.RentalAppApiRentalsApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.appsdeveloperblog.rentalapp.api.gateway.ApiGatewayApplication" />
       <module name="ApiGateway" />
@@ -146,6 +185,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ApiGateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.appsdeveloperblog.rentalapp.api.gateway.ApiGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,9 +247,17 @@
       <item itemvalue="Application.ApiGatewayApplication" />
       <item itemvalue="Application.RentalAppDiscoveryServiceApplication" />
       <item itemvalue="Application.RentalAppApiUsersApplication" />
+      <item itemvalue="Spring Boot.ApiGetewayApplication" />
+      <item itemvalue="Spring Boot.RentalAppApiInvoicesApplication" />
+      <item itemvalue="Spring Boot.RentalAppApiRentalsApplication" />
+      <item itemvalue="Spring Boot.RentalAppApiUsersApplication" />
+      <item itemvalue="Spring Boot.RentalAppDiscoveryServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RentalAppDiscoveryServiceApplication" />
+        <item itemvalue="Spring Boot.RentalAppApiUsersApplication" />
         <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Application.RentalAppApiUsersApplication" />
         <item itemvalue="Application.RentalAppDiscoveryServiceApplication" />
@@ -231,6 +285,7 @@
       <workItem from="1639568638667" duration="2132000" />
       <workItem from="1639576955676" duration="3355000" />
       <workItem from="1639580361230" duration="3867000" />
+      <workItem from="1639725536231" duration="3543000" />
     </task>
     <servers />
   </component>
